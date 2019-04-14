@@ -196,22 +196,11 @@ h3, h2 {
   margin: 20px 0 25px;
   overflow: auto;
   margin-left: 115px;
+  opacity: 0.5;
 }
 
-.psych,
-.cryst,
-.mus,
-.train,
-.group {
-  transition: transform .1s;
-}
-
-.psych:hover,
-.cryst:hover,
-.mus:hover,
-.train:hover,
-.group:hover {
-  transform: scale(1.5); 
+.work:hover {
+  opacity: unset;
 }
 
 
